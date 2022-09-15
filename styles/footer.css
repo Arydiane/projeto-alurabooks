@@ -4,6 +4,7 @@ hr {
 
 .rodape {
     background-color: var(--branco);
+    padding: 1em;
 }
 
 .lista-rodape {
@@ -32,6 +33,7 @@ hr {
     }
 
     .lista-rodape__titulo {
+        font-size: 14px;
         color: var(--cinza-claro);
         text-transform: uppercase;
     }
