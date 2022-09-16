@@ -1,5 +1,5 @@
 .principal {
-    width: 50vw;
+    width: 80vw;
     margin: 5em auto 6em auto;
 }
 
@@ -39,13 +39,9 @@
 
 }
 
-.formulario__dupla {
-    display: flex;
-}
-
 .formulario__botao {
     background: var(--laranja);
-    padding: 1em 4em;
+    padding: 1em 2em;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -53,6 +49,7 @@
     color: var(--branco);
     cursor: pointer;
     float: right;
+
 }
 
 .formulario__erro {
@@ -76,3 +73,17 @@
     color: var(--vermelho);
 }
 
+@media screen and (min-width: 1024px) {
+
+    .principal {
+        width: 50vw;
+    }
+
+    .formulario__dupla {
+        display: flex;
+    }
+
+    .formulario__botao {
+        padding: 1em 4em;
+    }
+}

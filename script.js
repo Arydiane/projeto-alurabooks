@@ -10,13 +10,17 @@ async function buscaEndereco(cep) {
             throw Error('CEP não existente!');
         }
 
-        var cidade = document.getElementById('cidade');
-        var logradouro = document.getElementById('endereco');
-        var estado = document.getElementById('estado');
+        console.log(consultaCEPConvertida)
+
+        let cidade = document.getElementById('cidade');
+        let logradouro = document.getElementById('endereco');
+        let estado = document.getElementById('estado');
+        let bairro = document.getElementById('bairro');
 
         cidade.value = consultaCEPConvertida.localidade;
         logradouro.value = consultaCEPConvertida.logradouro;
         estado.value = consultaCEPConvertida.uf;
+        bairro.value = consultaCEPConvertida.bairro;
 
         console.log(consultaCEPConvertida);
         return consultaCEPConvertida;
