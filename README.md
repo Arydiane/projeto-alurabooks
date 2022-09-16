@@ -1,7 +1,7 @@
 # Projeto AluraBooks
 
 <p>Projeto de um site de compras de livros desenvolvido no curso de responsividade da Alura. </p>
-<p>O projeto foi construído utilizando a técnica mobile first e com padrão de nomenclatura de classes BEM.</p> 
+<p>O projeto foi construído utilizando a técnica mobile first e com padrão de nomenclatura de classes BEM. E consumo da API viaCEP para preenchimento endereço no formulário de cadastro.</p> 
 
 ## 💻 Layout  
 
@@ -25,3 +25,4 @@ Toda a estilização usada no projeto pode ser encontrada no figma
 As tecnologias usadas foram: 
 * HTML
 * CSS
+* JavaScript
